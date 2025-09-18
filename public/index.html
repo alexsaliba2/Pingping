@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>🏓 Ping Pong Paradise - Interactive Guide</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>🏓 Ping Pong Paradise</h1>
+            <p>Your Ultimate Interactive Guide to Table Tennis Excellence</p>
+        </header>
+
+        <nav>
+            <ul>
+                <li><a href="#home" class="nav-link active" data-section="home">Home</a></li>
+                <li><a href="#rules" class="nav-link" data-section="rules">Rules</a></li>
+                <li><a href="#equipment" class="nav-link" data-section="equipment">Equipment</a></li>
+                <li><a href="#techniques" class="nav-link" data-section="techniques">Techniques</a></li>
+                <li><a href="#quiz" class="nav-link" data-section="quiz">Quiz</a></li>
+            </ul>
+        </nav>
+
+        <main>
+            <!-- Home Section -->
+            <section id="home" class="content-section active">
+                <h2>Welcome to the World of Ping Pong</h2>
+                <p>
+                    Ping Pong, officially known as table tennis, is one of the world's most popular and exciting sports. 
+                    This fast-paced game combines lightning-quick reflexes, strategic thinking, and incredible hand-eye 
+                    coordination. Whether you're a casual player enjoying a friendly match in your basement or a 
+                    competitive athlete training for international tournaments, ping pong offers endless entertainment 
+                    and physical benefits.
+                </p>
+
+                <div class="ping-pong-image">
+                    <img src="nano-banana-generated-1758152497584.png" alt="Ping pong related image" />
+                    <p>Professional players demonstrate the intensity and skill required in competitive table tennis</p>
+                </div>
+
+                <p>
+                    The history of ping pong dates back to the 1880s when it evolved from lawn tennis as an indoor 
+                    alternative. Originally called "whiff-whaff," the game quickly gained popularity in England and 
+                    spread throughout Europe and Asia. Today, table tennis is governed by the International Table Tennis 
+                    Federation (ITTF) and is played in over 220 countries and territories.
+                </p>
+
+                <div class="highlight-box">
+                    <h3>🎯 Why Play Ping Pong?</h3>
+                    <p>
+                        Ping pong is not just a game—it's a complete workout for your mind and body! This incredible 
+                        sport improves hand-eye coordination, enhances reflexes, burns calories, and provides excellent 
+                        cardiovascular exercise. Mental benefits include improved concentration, strategic thinking, and 
+                        stress relief.
+                    </p>
+                </div>
+            </section>
+
+            <!-- Rules Section -->
+            <section id="rules" class="content-section">
+                <h2>Official Ping Pong Rules</h2>
+                <div class="rules-grid">
+                    <div class="rule-card">
+                        <h4>🏓 Serving</h4>
+                        <p>The ball must be thrown up at least 6 inches and hit on the way down. It must bounce once on your side, then once on opponent's side.</p>
+                    </div>
+                    <div class="rule-card">
+                        <h4>🎯 Scoring</h4>
+                        <p>Games are played to 11 points. You must win by 2 points. Players alternate serves every 2 points.</p>
+                    </div>
+                    <div class="rule-card">
+                        <h4>🔄 Rally</h4>
+                        <p>After the serve, players alternate hitting the ball. The ball must cross the net and land on the opponent's side.</p>
+                    </div>
+                    <div class="rule-card">
+                        <h4>🏆 Match</h4>
+                        <p>A match is typically best of 5 or 7 games. Professional matches can go up to 7 games.</p>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Equipment Section -->
+            <section id="equipment" class="content-section">
+                <h2>Essential Equipment</h2>
+                <div class="equipment-showcase">
+                    <div class="equipment-item">
+                        <div class="equipment-icon">🏓</div>
+                        <h4>Paddle (Racket)</h4>
+                        <p>Choose between different rubber types: pips-in for control, pips-out for spin variation.</p>
+                    </div>
+                    <div class="equipment-item">
+                        <div class="equipment-icon">⚪</div>
+                        <h4>Ball</h4>
+                        <p>Official balls are 40mm diameter, weigh 2.7g, and are made of celluloid or plastic.</p>
+                    </div>
+                    <div class="equipment-item">
+                        <div class="equipment-icon">🏗️</div>
+                        <h4>Table</h4>
+                        <p>Standard table: 9ft long, 5ft wide, 2.5ft high with a 6-inch high net.</p>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Techniques Section -->
+            <section id="techniques" class="content-section">
+                <h2>Master the Techniques</h2>
+                <div class="technique-selector">
+                    <button class="technique-btn active" data-technique="forehand">Forehand Drive</button>
+                    <button class="technique-btn" data-technique="backhand">Backhand Drive</button>
+                    <button class="technique-btn" data-technique="serve">Power Serve</button>
+                    <button class="technique-btn" data-technique="spin">Topspin Loop</button>
+                </div>
+                <div class="technique-display">
+                    <div id="forehand" class="technique-info active">
+                        <h4>🏓 Forehand Drive</h4>
+                        <p>The most fundamental stroke in ping pong. Keep your elbow close to your body, rotate your waist, and follow through across your body.</p>
+                    </div>
+                    <div id="backhand" class="technique-info">
+                        <h4>🔄 Backhand Drive</h4>
+                        <p>Essential for quick exchanges. Keep your wrist firm, use your elbow as a pivot, and contact the ball in front of your body.</p>
+                    </div>
+                    <div id="serve" class="technique-info">
+                        <h4>⚡ Power Serve</h4>
+                        <p>Start with the ball in your palm, throw it up 6+ inches, and strike with a firm wrist snap for maximum speed and spin.</p>
+                    </div>
+                    <div id="spin" class="technique-info">
+                        <h4>🌪️ Topspin Loop</h4>
+                        <p>The signature attacking stroke. Brush up on the ball with a low-to-high motion, generating heavy topspin for aggressive play.</p>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Quiz Section -->
+            <section id="quiz" class="content-section">
+                <h2>Test Your Knowledge</h2>
+                <div class="quiz-container">
+                    <div id="quiz-question" class="quiz-question">
+                        <h3>Question 1 of 5</h3>
+                        <p>What is the official diameter of a ping pong ball?</p>
+                        <div class="quiz-options">
+                            <button class="quiz-option" data-answer="wrong">38mm</button>
+                            <button class="quiz-option" data-answer="correct">40mm</button>
+                            <button class="quiz-option" data-answer="wrong">42mm</button>
+                            <button class="quiz-option" data-answer="wrong">44mm</button>
+                        </div>
+                    </div>
+                    <div class="quiz-score">
+                        <p>Score: <span id="score">0</span>/5</p>
+                        <button id="restart-quiz" class="action-btn">Restart Quiz</button>
+                    </div>
+                </div>
+            </section>
+        </main>
+
+        <footer>
+            <p>&copy; 2024 Ping Pong Paradise. All rights reserved.</p>
+            <p>Built with ❤️ using Node.js & Express | CAP3321 Assignment</p>
+        </footer>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
